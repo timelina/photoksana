@@ -1,0 +1,76 @@
+<div class="album py-5 bg-light">
+    <div class="container">
+      <h3 class="color-grey">Children photography Chicago and suburbs</h3>
+      <section>
+        <p>
+          A photo session with a child in a studio or just outdoors is always unpredictable and spontaneous.
+          It is hard to explain for a kid what kind of emotion to depict now, what pose to take, how exactly to look at
+          the camera.
+          My great experience of capturing children convinces me that children come up with the best scenes themselves,
+          not adults.
+          The result is always very real, natural and sincere, and my goal is to capture the mood and movement.
+        </p>
+        <p>
+          I, as a child and family photographer with a huge experience, I can create a unique story
+          of your family and relationships with each other, but the most important thing is to convey
+          all the emotions of your child. All you need is an excellent mood and a positive attitude,
+          all the rest I will do myself.
+        </p>
+        <p>
+          The photo session of parents with children has a special meaning for me, because the
+          process creates a unique atmosphere for each individual family. I brought many plots to life,
+          implemented many interesting projects, and my works take their rightful place in family history.
+          Children's photo session gives a lot of emotions, it is always immediate and complex at the same time.
+          Choosing my services of a child photographer, you can be sure, I will be happy to present a fairy
+          tale and put it in photos to you and your children.
+        </p>
+        <p>
+          You may book your child photoshoot if you <a routerLink="/contact" class="text-blue"> CONTACT</a> me
+        </p>
+        <p>
+          I can also offer <a routerLink="/maternity" class="text-blue">maternity</a> photoshoot and <a
+            routerLink="/family" class="text-blue">family</a> photoshoot
+        </p>
+      </section>
+      <h4 class="color-grey">Why do parents trust me to photoshoot a child's birthday?</h4>
+      <section>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <i class="fa fa-check"></i>
+            I take professional and high-quality images
+          </li>
+          <li class="list-group-item">
+            <i class="fa fa-check"></i>
+            I always discuss the whole holiday program with my parents in advance - in time to catch all the most
+            important moments.
+          </li>
+          <li class="list-group-item">
+            <i class="fa fa-check"></i>
+            I am able to communicate with children and at the same time do not over-focus attention on myself.
+          </li>
+          <li class="list-group-item">
+            <i class="fa fa-check"></i>
+            It is important for me that the holiday atmosphere was in every shot. Every birthday keeps a piece of magic in
+            it - and I will be able to catch it!
+          </li>
+        </ul>
+        <p>
+          Entrust professional child photography to me - and you will be definitely satisfied.
+        </p>
+        <p>
+          Do not forget to invite professional photographer for the children's birthday, especially for your baby’s first
+          year birthday!
+        </p>
+      </section>
+  
+      <section>
+          <div class="row">
+              <div *ngFor="let image of images" class="col-md-4">
+                <div class="card mb-4 shadow-sm border-secondary text-center">
+                  <img class="card-img-top" src={{image}} (contextmenu)="onRightClick($event)" alt="Card image cap">
+                </div>
+              </div>
+            </div>
+      </section>
+    </div>
+  </div>

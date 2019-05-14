@@ -1,0 +1,83 @@
+<div class="album py-5 bg-light">
+    <div class="container">
+      <h3 class="color-grey">Family photography</h3>
+      <section>
+        <p>
+          I am always more than happy to share your family special event, by capturing every moment
+          of it. Our sessions highlight unique personality of each family member, genuinee motions
+          and relationship between family members. To convey the atmosphere of every family,
+          I need to join them emotionally, understand the mood and the role of each family member,
+          understand their feelings and their history. We work closely with each our client to
+          achieve a look that reflects their personality, feelings and style. Our clients come to us
+          to book their photo session over and over again. They prefer us because they know they are
+          in right hands. They trust us. We discuss every detail prior to our session: style, color,
+          location, time, clothes, make-up, hair, other details to get a great result.
+          Read my recommendations of how to prepare for the family photo session
+          <a routerLink="/blog" class="text-blue"> here</a>.
+        </p>
+        <p>
+          I guarantee the most comfortable shooting atmosphere during the entire session. I understand
+          the importance of every shot and treat the role of your photos as your family heritage.
+        </p>
+      </section>
+      <h4 class="color-grey">Preparation for the family photo shooting</h4>
+      <section>
+        <p>
+          Preparation for the family photo shooting is very important. The shots are expected to be
+          full of love and harmony of your family. They must give energy and positive emotions.
+          That is why it is very important to plan family photo session in details.
+          Below you will find my simple advise when you plan your photoshooting.
+        </p>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <i class="fa fa-map-pin"></i><b> Choose location.</b>
+            If you are going to photograph your family at home, make sure
+            there are no many furniture items in the room and there is enough space to place all
+            family members. About locations you may also read in this
+            <a routerLink="/blog" class="text-blue">article</a>.
+          </li>
+          <li class="list-group-item">
+            <i class="fa fa-star"></i><b> Choose outfit.</b>
+            I have several recommendations to the outfits in this
+            <a routerLink="/blog" class="text-blue">article</a>.
+            In the family photography it is very important that all family members’ outfits go well together.
+            Group colors and hues. Prepare all you are going to put on: clean and iron if possible.
+          </li>
+          <li class="list-group-item">
+            <i class="fa fa-clock-o"></i><b> Choose time.</b> Choose the ideal time for your family. It depends on your
+            family rhythm.
+            Choose time when your kid is active and cheerful.
+          </li>
+          <li class="list-group-item">
+            <i class="fa fa-coffee"></i> <b>If you are with a kid, </b>
+            bring toys, water and snacks (not candy and chocolate) for your kid.
+            During cold season bring a blanket with you to warm your child between shots.
+          </li>
+          <li class="list-group-item">
+            <i class="fa fa-eye"></i><b> Pay attention</b>
+            to your hair, nails and makeup
+          </li>
+          <li class="list-group-item">
+            <i class="fa fa-handshake-o"></i><b> Trust your photographer</b>
+            and try to not pay attention to camera.
+          </li>
+          <li class="list-group-item">
+            <i class="fa fa-smile-o"></i>
+            And finally, <b>bring your peace and high spirit.</b> Remember: your smiles on the photographs
+            must be natural. Feel free to give hugs and kisses to your child.
+            Great captures happen when all family members are busy with something: playing and having fun.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <div class="row">
+          <div *ngFor="let image of images" class="col-md-4">
+            <div class="card mb-4 shadow-sm border-secondary text-center">
+              <img class="card-img-top" src={{image}} 
+              (contextmenu)="onRightClick($event)" alt="Card image cap">
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>

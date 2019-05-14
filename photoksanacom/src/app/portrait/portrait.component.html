@@ -1,0 +1,38 @@
+<div class="album py-5 bg-light">
+    <div class="container">
+      <h3 class="color-grey">Portrait</h3>
+      <section>
+        <p>
+            In a global sense, a portrait is a certain substance of a person’s life or of a certain period of it, 
+            reflecting thoughts, feelings, experiences, emotions, features of character, and even kind of activity. 
+            When I take portraits of people, my first priority is genuine interest, respect and love for the person 
+            portrayed: such an attitude is the foundation of mutual understanding between me and the model, 
+            allows me to tune in to work with a specific person, to feel his inner world, and then tell about it through the photo.
+        </p>
+        <p>
+            Working on portraits, I understand how important it is to be attentive to details, 
+            to notice and fix subtle features: the way you squint, frown, grin, raise an eyebrow, 
+            rub your palms in surprise. All this and much more, seen in time through the lens, 
+            will beautifully express, put the emotional background in the first place and make your photo “alive”.
+        </p>
+        <p>
+            Properly selected image will help to enhance the emotions of the photo as a whole and perfectly 
+            highlight your features. Remember that the main rule here is the following order: in the 
+            first place - you, in the second - what you are wearing. Clothing in any case should not over-pull 
+            the viewer's attention on itself, it is always an auxiliary element, only this way. 
+            The best option for almost any portrait is the basic clothing, consisting of things in which you are primarily comfortable.
+        </p>
+        <p>
+        </section>
+ 
+        <section>
+            <div class="row">
+              <div *ngFor="let image of images" class="col-md-4">
+                <div class="card mb-4 shadow-sm border-secondary text-center">
+                  <img class="card-img-top" src={{image}} (contextmenu)="onRightClick($event)" alt="Card image cap">
+                </div>
+              </div>
+            </div>
+          </section>
+    </div>
+  </div>

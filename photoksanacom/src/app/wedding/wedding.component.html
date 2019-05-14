@@ -1,0 +1,60 @@
+<div class="album py-5 bg-light">
+    <div class="container">
+      <h3 class="color-grey">Wedding photography</h3>
+      <section>
+        <p>
+            The first thing you should do is to remember that your wedding is a special event for your couple, 
+            it is a very important day for both of you, your friends and family members. 
+            It is not only a day for taking pictures in beautiful clothes – you can do it any other day, 
+            dressing up and taking a photographer for a walk. Be happy, smile, laugh, cry, feel free 
+            to express any kind emotions and feelings this day, YOUR DAY! As a wedding photographer 
+            I will notice them and capture all these moments so that you could keep them all your life. 
+        </p>
+        <p>
+            Feel free to express your feelings and emotions to each other. When walking, try not to 
+            look at your feet, otherwise the faces in the pictures will be almost invisible. 
+            Look at each other or on the sides. Be as natural as possible, this will reflect your 
+            personality in the pictures. Do not hesitate to express all your ideas to the photographer, 
+            this is your holiday, and any idea can be implemented if you wish.
+        </p>
+        <p>
+            Our packages vary for your convenience. Basic rate starts from $200 per hour. 
+            We recommend choosing Optimum package. In addition to Wedding it includes Love Story photo session.
+        </p>
+        <p>
+            Our studio is based in Chicago; however, we are comfortable to travel to your city.
+            Please give me a call at 224-944-1760 or use any other way to contact me and we will set up a comfortable 
+            date to sit and talk around all the details of your Wedding. 
+            We will go through the checklist to make sure we did not miss anything. 
+        </p>
+        <p>
+            <h4 class="color-grey">Our clients choose us because we save your time and money:</h4>
+            
+
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <i class="fa fa-calendar-o"></i>
+                  Your proofs are ready within one week after your wedding
+                </li>
+                <li class="list-group-item">
+                  <i class="fa fa-calendar-check-o"></i>
+                  Your digital images are ready within 2 weeks after your wedding
+                </li>
+                <li class="list-group-item">
+                  <i class="fa fa-money"></i>
+                  You get a 20% discount Certificate for your next photo session.
+                </li>
+              </ul>
+        </section>
+ 
+        <section>
+          <div class="row">
+            <div *ngFor="let image of images" class="col-md-4">
+              <div class="card mb-4 shadow-sm border-secondary text-center">
+                <img class="card-img-top" src={{image}} (contextmenu)="onRightClick($event)" alt="Card image cap">
+              </div>
+            </div>
+          </div>
+        </section>
+    </div>
+  </div>

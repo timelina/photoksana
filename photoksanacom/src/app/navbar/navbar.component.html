@@ -1,0 +1,62 @@
+<header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+      
+        <div class="col-centered py-4">
+            <br><br>
+            <ul class="list-unstyled">
+              <li class="menu-bottom-margin" 
+                data-toggle="collapse" 
+                data-target="#navbarHeader"
+                >
+                <a routerLink="/about" class="text-white"> 
+                <i class="fa fa-address-card-o"></i> ABOUT</a>
+              </li>
+              <li class="menu-bottom-margin"
+                data-toggle="collapse" 
+                data-target="#navbarHeader">
+                <a routerLink="/contact" class="text-white">
+                <i class="fa fa-envelope-o"></i> CONTACT US</a>
+              </li>
+              <li class="menu-bottom-margin"
+                data-toggle="collapse" 
+                data-target="#navbarHeader" >
+                <a routerLink="/prices" class="text-white">
+                <i class="fa fa-handshake-o"></i> PACKAGES AND PRICES</a>
+              </li>
+              <li class="menu-bottom-margin"
+                data-toggle="collapse" 
+                data-target="#navbarHeader">
+                <a routerLink="/gallery" class="text-white">
+                <i class="fa fa-picture-o"></i> PORTFOLIO</a>
+              </li>
+              <li class="menu-bottom-margin"
+                data-toggle="collapse" 
+                data-target="#navbarHeader"
+                >
+                <a routerLink="/blog" class="text-white">
+                <i class="fa fa-film"></i> BLOG</a>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar fixed-top navbar-dark bg-dark shadow-sm">
+    <div class="container d-flex justify-content-between">
+      <a href="/home" class="navbar-brand d-flex align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+        <strong>PhotoKsana</strong>
+      </a>
+      <button class="navbar-toggler" type="button" (click)="doScroll()"
+        data-toggle="collapse" 
+        data-target="#navbarHeader" 
+        aria-controls="navbarHeader" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,123 @@
+
+<div class="album py-5 bg-light">
+  <div class="container">
+   
+      <!-- [end]="'2019-05-01 00:00:00' -->
+    <div class="row">
+      <div routerLink="/family" class="col-md-4">
+        <!-- Family album -->
+        <div [ngClass]="color1" (mouseover)="color1='card mb-4 shadow-sm border-secondary'"
+          (mouseout)="color1='card mb-4 shadow-sm'">
+          <img class="card-img-top" src="../assets/images/a001.jpg" (contextmenu)="onRightClick($event)"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Family</h5>
+            <p class="card-text">What I like about photographs is that they capture a moment that’s gone forever,
+              impossible to reproduce.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <!-- <button type="button" class="btn btn-sm btn-outline-primary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+              </div>
+              <small class="text-muted">— Karl Lagerfeld</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div routerLink="/portrait" class="col-md-4">
+        <!-- Portrait album -->
+        <div [ngClass]="color2" (mouseover)="color2='card mb-4 shadow-sm border-secondary'"
+          (mouseout)="color2='card mb-4 shadow-sm'">
+          <img class="card-img-top" src="../assets/images/a002.jpg" (contextmenu)="onRightClick($event)"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Portrait</h5>
+            <p class="card-text">It’s one thing to make a picture of what a person looks like, it’s another thing to
+              make a portrait of who they are.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+              </div>
+              <small class="text-muted">– Paul Caponigro</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div routerLink="/children" class="col-md-4">
+        <!-- Children album -->
+        <div [ngClass]="color6" (mouseover)="color6='card mb-4 shadow-sm border-secondary'"
+          (mouseout)="color6='card mb-4 shadow-sm'">
+          <img class="card-img-top" src="../assets/images/a006.jpg" (contextmenu)="onRightClick($event)"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Children</h5>
+            <p class="card-text">The best thing about a picture is that it never changes, even when the people in it do.
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+              </div>
+              <small class="text-muted">– Andy Warhol</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div routerLink="/event" class="col-md-4">
+        <!-- Event album -->
+        <div [ngClass]="color3" (mouseover)="color3='card mb-4 shadow-sm border-secondary'"
+          (mouseout)="color3='card mb-4 shadow-sm'">
+          <img class="card-img-top" src="../assets/images/a003.jpg" (contextmenu)="onRightClick($event)"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Event</h5>
+            <p class="card-text">To me, photography is the simultaneous recognition, in a fraction of a second, of the
+              significance of an event.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+              </div>
+              <small class="text-muted">– Henri Cartier-Bresson</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div routerLink="/maternity" class="col-md-4">
+        <!-- Maternity album -->
+        <div [ngClass]="color4" (mouseover)="color4='card mb-4 shadow-sm border-secondary'"
+          (mouseout)="color4='card mb-4 shadow-sm'">
+          <img class="card-img-top" src="../assets/images/a004.jpg" (contextmenu)="onRightClick($event)"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Maternity</h5>
+            <p class="card-text">Photography is a kind of virtual reality, and it helps if you can create the illusion
+              of being in an interesting world.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+              </div>
+              <small class="text-muted">– Steven Pinker</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div routerLink="/wedding" class="col-md-4">
+        <!-- Wedding album -->
+        <div [ngClass]="color5" (mouseover)="color5='card mb-4 shadow-sm border-secondary'"
+          (mouseout)="color5='card mb-4 shadow-sm'">
+          <img class="card-img-top" src="../assets/images/a005.jpg" (contextmenu)="onRightClick($event)"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Wedding</h5>
+            <p class="card-text">The camera makes you forget you’re there. It’s not like you are hiding but you forget,
+              you are just looking so much.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+              </div>
+              <small class="text-muted">— Annie Leibovitz</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
