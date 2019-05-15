@@ -18,6 +18,11 @@ import { ChildrenComponent } from './children/children.component';
 import { WeddingComponent } from './wedding/wedding.component';
 import { EventComponent } from './event/event.component';
 import { MaternityComponent } from './maternity/maternity.component';
+import { PortfolioPortraitComponent } from './portfolio/portfolio-portrait/portfolio-portrait.component';
+import { PortfolioChildrenComponent } from './portfolio/portfolio-children/portfolio-children.component';
+import { PortfolioEventComponent } from './portfolio/portfolio-event/portfolio-event.component';
+import { PortfolioNewbornComponent } from './portfolio/portfolio-newborn/portfolio-newborn.component';
+import { PortfolioWeddingComponent } from './portfolio/portfolio-wedding/portfolio-wedding.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +39,12 @@ import { MaternityComponent } from './maternity/maternity.component';
     ChildrenComponent,
     WeddingComponent,
     EventComponent,
-    MaternityComponent
+    MaternityComponent,
+    PortfolioPortraitComponent,
+    PortfolioChildrenComponent,
+    PortfolioEventComponent,
+    PortfolioNewbornComponent,
+    PortfolioWeddingComponent
   ],
   imports: [
     CommonModule,
