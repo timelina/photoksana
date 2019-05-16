@@ -31,7 +31,9 @@ export class ChildrenComponent implements OnInit {
       ,'../assets/children/cld015.jpg'
       ,'../assets/children/cld016.jpg'
       ,'../assets/children/cld017.jpg'
-
+      ,'../assets/children/cld018.jpg'
+      ,'../assets/children/cld019.jpg'
+      ,'../assets/children/cld020.jpg'
     ]
   }
 

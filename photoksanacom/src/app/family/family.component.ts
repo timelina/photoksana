@@ -31,6 +31,7 @@ export class FamilyComponent implements OnInit {
       ,'../assets/family/fam015.jpg'
       ,'../assets/family/fam016.jpg'
       ,'../assets/family/fam017.jpg'
+      ,'../assets/family/fam018.jpg'
     ]
   }
 
