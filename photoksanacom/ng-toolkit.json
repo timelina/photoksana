@@ -1,0 +1,31 @@
+{
+  "universal": {
+    "clientProject": "photoksana",
+    "skipInstall": false,
+    "http": true,
+    "appId": "serverApp",
+    "main": "main.server.ts",
+    "serverFileName": "server.ts",
+    "serverPort": 4000,
+    "tsconfigFileName": "tsconfig.server",
+    "testTsconfigFileName": "tsconfig.spec",
+    "appDir": "app",
+    "rootModuleFileName": "app.server.module.ts",
+    "rootModuleClassName": "AppServerModule",
+    "skipServer": false,
+    "skipUniversal": false,
+    "webpack": true
+  },
+  "serverless": {
+    "provider": "firebase",
+    "firebaseProject": "photoksana-66e5f",
+    "project": "photoksana",
+    "skipInstall": false,
+    "directory": ".",
+    "clientProject": "photoksana",
+    "serverless": {
+      "aws": {},
+      "gcloud": {}
+    }
+  }
+}

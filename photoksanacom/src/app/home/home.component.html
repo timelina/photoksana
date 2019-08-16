@@ -24,6 +24,7 @@
           </div>
         </div>
       </div>
+
       <div routerLink="/portrait" class="col-md-4">
         <!-- Portrait album -->
         <div [ngClass]="color2" (mouseover)="color2='card mb-4 shadow-sm border-secondary'"
@@ -81,8 +82,8 @@
         </div>
       </div>
 
-      <div routerLink="/maternity" class="col-md-4">
-        <!-- Maternity album -->
+      <div routerLink="/newborn" class="col-md-4">
+        <!-- Newborn album -->
         <div [ngClass]="color4" (mouseover)="color4='card mb-4 shadow-sm border-secondary'"
           (mouseout)="color4='card mb-4 shadow-sm'">
           <img class="card-img-top" src="../assets/images/a004.jpg" (contextmenu)="onRightClick($event)"
@@ -118,6 +119,47 @@
           </div>
         </div>
       </div>
+
+      <div routerLink="/seniors" class="col-md-4">
+        <!-- Seniors album -->
+        <div [ngClass]="color5" (mouseover)="color5='card mb-4 shadow-sm border-secondary'"
+          (mouseout)="color5='card mb-4 shadow-sm'">
+          <img class="card-img-top" src="../assets/images/a005.jpg" (contextmenu)="onRightClick($event)"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Seniors</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla tempore veritatis </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+              </div>
+              <small class="text-muted">— Author</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div routerLink="/maternity" class="col-md-4">
+        <!-- Maternity album -->
+        <div [ngClass]="color5" (mouseover)="color5='card mb-4 shadow-sm border-secondary'"
+          (mouseout)="color5='card mb-4 shadow-sm'">
+          <img class="card-img-top" src="../assets/images/a005.jpg" (contextmenu)="onRightClick($event)"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Maternity</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla tempore veritatis </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+              </div>
+              <small class="text-muted">— Author</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
     </div>
   </div>
 </div>

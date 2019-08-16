@@ -1,0 +1,15 @@
+<div class="album py-5 bg-light">
+  <div class="container">
+    <h3 class="color-grey">Newborn</h3>
+
+      <section>
+          <div class="row">
+            <div *ngFor="let image of images" class="col-md-4">
+              <div class="card mb-4 shadow-sm border-secondary text-center">
+                <img class="card-img-top" src={{image}} (contextmenu)="onRightClick($event)" alt="Card image cap">
+              </div>
+            </div>
+          </div>
+        </section>
+  </div>
+</div>

@@ -1,4 +1,5 @@
 import { Component, OnInit, Inject } from '@angular/core';
+import { WINDOW } from '@ng-toolkit/universal';
 
 @Component({
   selector: 'navbar',
@@ -6,14 +7,14 @@ import { Component, OnInit, Inject } from '@angular/core';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
- constructor() {}
+ constructor(@Inject(WINDOW) private window: Window, ) {}
 
 
   ngOnInit() {
   }
 
   doScroll() {
-    window.scroll(0, 0);
+    this.window.scroll(0, 0);
   }
 
 }

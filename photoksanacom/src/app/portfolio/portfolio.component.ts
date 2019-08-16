@@ -16,9 +16,10 @@ export class PortfolioComponent implements OnInit {
       '../assets/family/fam001.jpg'
       ,'../assets/family/fam002.jpg'
       ,'../assets/family/fam003.jpg'
-      ,'../assets/family/fam004.jpg'
+      //,'../assets/family/fam004.jpg'
       ,'../assets/family/fam005.jpg'
       ,'../assets/family/fam006.jpg'
+      ,'../assets/family/fam018.jpg'
       ,'../assets/family/fam007.jpg'
       ,'../assets/family/fam008.jpg'
       ,'../assets/family/fam009.jpg'
@@ -30,7 +31,6 @@ export class PortfolioComponent implements OnInit {
       ,'../assets/family/fam015.jpg'
       ,'../assets/family/fam016.jpg'
       ,'../assets/family/fam017.jpg'
-      ,'../assets/family/fam018.jpg'
     ]
     // this.images=[
     //   '../assets/portfolio/pf001.jpg'

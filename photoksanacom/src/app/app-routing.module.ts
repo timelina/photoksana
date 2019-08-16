@@ -17,6 +17,14 @@ import { PortfolioChildrenComponent } from './portfolio/portfolio-children/portf
 import { PortfolioEventComponent } from './portfolio/portfolio-event/portfolio-event.component';
 import { PortfolioNewbornComponent } from './portfolio/portfolio-newborn/portfolio-newborn.component';
 import { PortfolioWeddingComponent } from './portfolio/portfolio-wedding/portfolio-wedding.component';
+import { NewbornComponent } from './newborn/newborn.component';
+import { SeniorsComponent } from './seniors/seniors.component';
+import { CertificateComponent } from './certificate/certificate.component';
+import { Post1Component } from './blog/post1/post1.component';
+import { Post2Component } from './blog/post2/post2.component';
+import { Post3Component } from './blog/post3/post3.component';
+import { Post4Component } from './blog/post4/post4.component';
+import { Post5Component } from './blog/post5/post5.component';
 
 const routes: Routes = [
   { path: '',                   component: HomeComponent},
@@ -37,9 +45,19 @@ const routes: Routes = [
   { path: 'family',             component: FamilyComponent},
   { path: 'portrait',           component: PortraitComponent},
   { path: 'children',           component: ChildrenComponent},
-  { path: 'wedding',            component: WeddingComponent},
   { path: 'event',              component: EventComponent},
-  { path: 'maternity',          component: MaternityComponent}
+  { path: 'newborn',            component: NewbornComponent},
+  { path: 'wedding',            component: WeddingComponent},
+  { path: 'maternity',          component: MaternityComponent},
+  { path: 'seniors',            component: SeniorsComponent},
+  { path: 'certificate',        component: CertificateComponent},
+  { path: 'blog/child-photography',        component: Post1Component},
+  { path: 'blog/hair-nails-makeup',        component: Post2Component},
+  { path: 'blog/location',        component: Post3Component},
+  { path: 'blog/outfit-for-photo',        component: Post4Component},
+  { path: 'blog/preparing-newborn-photoshoot',        component: Post5Component},
+
+  
 ];
 
 @NgModule({

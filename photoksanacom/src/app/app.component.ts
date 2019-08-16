@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Inject } from '@angular/core';
+import { WINDOW } from '@ng-toolkit/universal';
 
 @Component({
   selector: 'app-root',
@@ -7,8 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'PhotoKsana';
+ constructor(@Inject(WINDOW) private window: Window) {}
+
 
   doScroll() {
-    window.scroll(0, 0);
+    this.window.scroll(0, 0);
   }
 }

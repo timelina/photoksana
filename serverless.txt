@@ -1,0 +1,17 @@
+2019/05/15
+
+1. First part 
+    ng add @ng-toolkit/universal
+
+Testing if it works.
+    sudo npm run build:prod
+    npm run server
+
+2. The second part
+    ng add @ng-toolkit/serverless --provider firebase --firebaseProject [your_project_ID]
+
+    so it's 
+    ng add @ng-toolkit/serverless --provider firebase --firebaseProject photoksana-66e5f
+
+Deploying:
+    sudo npm run build:prod:deploy
