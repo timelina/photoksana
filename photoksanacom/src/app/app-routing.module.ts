@@ -25,8 +25,10 @@ import { Post2Component } from './blog/post2/post2.component';
 import { Post3Component } from './blog/post3/post3.component';
 import { Post4Component } from './blog/post4/post4.component';
 import { Post5Component } from './blog/post5/post5.component';
+import { TestComponent } from './test/test.component';
 
 const routes: Routes = [
+  { path: 'test',               component: TestComponent},
   { path: '',                   component: HomeComponent},
   { path: 'home',               component: HomeComponent},
   { path: 'prices',             component: PricesComponent},

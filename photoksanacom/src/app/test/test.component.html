@@ -1,0 +1,84 @@
+<div class="album py-5 bg-light">
+  <div class="container">
+    <h3 class="color-grey">Test</h3>
+
+    <app-photography [category]="category"></app-photography> 
+    <!-- <app-photography></app-photography> -->
+    <section>
+      <!-- <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm border-secondary text-center">
+            <img class="card-img-top" src="../../assets/children/cld006.jpg">
+          </div>
+
+        </div>
+        <div class="col-md-8">
+          <div class="card mb-8 shadow-sm border-secondary text-center">
+            <img class="card-img-top" src="../../assets/children/cld007.jpg">
+          </div>
+        </div>
+
+      </div> -->
+
+      <div class="row">
+        <div class="column">
+          <!-- <div *ngFor="let imageColumn1 of imagesColumn1"> -->
+            <img *ngFor="let imageColumn1 of imagesColumn1" src={{imageColumn1}} alt="">
+          <!-- </div> -->
+          
+          <!-- <img src="../../assets/children/cld006.jpg">
+          <img src="../../assets/children/cld007.jpg">
+          <img src="../../assets/children/cld008.jpg">
+          <img src="../../assets/children/cld009.jpg">
+          <img src="../../assets/children/cld001.jpg">
+          <img src="../../assets/children/cld002.jpg">
+          <img src="../../assets/children/cld012.jpg">
+          <img src="../../assets/children/cld004.jpg"> -->
+        </div>
+        <div class="column">
+            <!-- <div *ngFor="let imageColumn2 of imagesColumn2"> -->
+                <img *ngFor="let imageColumn2 of imagesColumn2" src={{imageColumn2}} alt="">
+              <!-- </div> -->
+          
+              
+          <!-- <img src="../../assets/children/cld007.jpg">
+          <img src="../../assets/children/cld001.jpg">
+          <img src="../../assets/children/cld004.jpg">
+          <img src="../../assets/children/cld008.jpg">
+          <img src="../../assets/children/cld012.jpg">
+          <img src="../../assets/children/cld013.jpg">
+          <img src="../../assets/children/cld014.jpg">
+          <img src="../../assets/children/cld005.jpg"> -->
+        </div>
+        <div class="column">
+            <img *ngFor="let imageColumn3 of imagesColumn3" src={{imageColumn3}} alt="">
+                          
+          <!-- <img src="../../assets/children/cld021.jpg">
+          <img src="../../assets/children/cld005.jpg">
+          <img src="../../assets/children/cld007.jpg">
+          <img src="../../assets/children/cld006.jpg">
+          <img src="../../assets/children/cld001.jpg">
+          <img src="../../assets/children/cld008.jpg">
+          <img src="../../assets/children/cld019.jpg">
+          <img src="../../assets/children/cld015.jpg"> -->
+        </div>
+        <div class="column">
+           <img *ngFor="let imageColumn4 of imagesColumn4" src={{imageColumn4}} alt="">
+              
+          <!-- <img src="../../assets/children/cld003.jpg">
+          <img src="../../assets/children/cld004.jpg">
+          <img src="../../assets/children/cld016.jpg">
+          <img src="../../assets/children/cld017.jpg">
+          <img src="../../assets/children/cld018.jpg">
+          <img src="../../assets/children/cld001.jpg">
+          <img src="../../assets/children/cld004.jpg">
+          <img src="../../assets/children/cld008.jpg"> -->
+
+        </div>
+      </div>
+
+    </section>
+
+
+  </div>
+</div>
